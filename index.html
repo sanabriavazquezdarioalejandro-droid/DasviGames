@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DasviGames: descubre juegos creados con creatividad, incluyendo Bubbles Pop.">
+  <meta name="theme-color" content="#080808">
+  <title>DasviGames — Juegos hechos con creatividad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="DasviGames, inicio">
+      <img src="assets/dasvigames-logo.png" alt="Logotipo DG de DasviGames">
+      <span>DasviGames</span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#juegos">Juegos</a>
+      <a href="#dasvidito">Dasvidito</a>
+      <a href="#seguridad">Seguridad</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">ESTUDIO INDEPENDIENTE</p>
+        <h1>Juega a tu manera.<br><span>Bienvenido a DasviGames.</span></h1>
+        <p class="intro">Un hogar para los juegos creados con imaginación. Explora nuestros proyectos y descubre qué estamos preparando.</p>
+        <a class="button button-light" href="#juegos">Explorar juegos <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <div class="mark-ring">DG</div>
+        <span>CREADO POR DASVIGAMES</span>
+      </div>
+    </section>
+
+    <section class="section" id="juegos">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CATÁLOGO</p>
+          <h2>Nuestros juegos</h2>
+        </div>
+        <p class="muted">Los proyectos de DasviGames, en un solo lugar.</p>
+      </div>
+      <article class="game-card">
+        <div class="game-art">
+          <div class="bubble bubble-one"></div>
+          <div class="bubble bubble-two"></div>
+          <div class="bubble bubble-three"></div>
+          <span class="game-art-title">BUBBLES<br>POP</span>
+        </div>
+        <div class="game-info">
+          <div class="tag">EN DESARROLLO</div>
+          <h3>Bubbles Pop</h3>
+          <p>¡Revienta burbujas, evita los peligros y consigue BubCoins! Esta ficha es una presentación inicial; pronto podrás añadir capturas, versión y descarga.</p>
+          <div class="game-meta"><span>Android</span><span>•</span><span>Sketchware</span></div>
+          <button class="button button-outline" type="button" id="detailsButton">Ver detalles</button>
+          <p class="details-note" id="detailsNote" hidden>La descarga todavía no está publicada. Vuelve más adelante para consultar novedades.</p>
+        </div>
+      </article>
+      <div class="empty-slot">
+        <span class="plus">+</span>
+        <div><strong>Tu próximo juego va aquí</strong><p>Cuando publiques otro proyecto, añadiremos su propia tarjeta.</p></div>
+      </div>
+    </section>
+
+    <section class="character-section" id="dasvidito">
+      <div class="character-badge" aria-hidden="true">
+        <div class="cap"></div>
+        <div class="face"><span>DG</span></div>
+        <div class="body"></div>
+      </div>
+      <div class="character-copy">
+        <p class="eyebrow">LA MASCOTA DE LA MARCA</p>
+        <h2>Conoce a Dasvidito</h2>
+        <p>Dasvidito es el vendedor de <strong>Bubbles Pop</strong> y la mascota de DasviGames. También podrá aparecer como protagonista, ayudante o personaje secreto en futuros juegos.</p>
+        <span class="character-quote">«¡Pásale! Hay juegos por descubrir.»</span>
+      </div>
+    </section>
+
+    <section class="section security" id="seguridad">
+      <p class="eyebrow">INFORMACIÓN IMPORTANTE</p>
+      <h2>Antes de instalar un APK</h2>
+      <p>Android o Google Play Protect pueden mostrar advertencias al instalar aplicaciones descargadas fuera de Google Play. Una advertencia no demuestra por sí sola que un archivo sea malicioso, pero tampoco debe ignorarse.</p>
+      <p>Si Play Protect detecta una amenaza, no continúes con la instalación hasta verificar el archivo. DasviGames solo debe publicar archivos propios que se hayan comprobado y que provengan de una fuente oficial.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="footer-brand" href="#inicio">DasviGames</a>
+    <span>Juegos hechos con creatividad.</span>
+    <span>© <span id="year"></span> DasviGames</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

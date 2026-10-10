@@ -1,0 +1,18 @@
+DASVIGAMES — SITIO WEB INICIAL
+
+Archivos:
+- index.html: contenido de la página
+- style.css: diseño negro y blanco adaptable a móvil y computadora
+- script.js: interacción del botón y año automático
+- assets/dasvigames-logo.png: logotipo proporcionado
+
+PARA VERLA
+Abre index.html en un navegador.
+
+PARA PUBLICARLA
+Puedes subir estos archivos a un servicio de alojamiento web estático, como GitHub Pages. El sitio todavía no está publicado en Internet.
+
+ANTES DE PUBLICAR
+- Sustituye la tarjeta de Bubbles Pop por capturas reales cuando las tengas.
+- Añade un enlace de descarga solo cuando el APK esté listo y comprobado.
+- El personaje de Dasvidito incluido en esta versión es una ilustración provisional hecha con CSS; se puede sustituir por una imagen oficial del personaje.
