@@ -1,7 +1,18 @@
-document.getElementById("year").textContent = new Date().getFullYear();
-const detailsButton = document.getElementById("detailsButton");
-const detailsNote = document.getElementById("detailsNote");
-detailsButton.addEventListener("click", () => {
-  detailsNote.hidden = !detailsNote.hidden;
-  detailsButton.textContent = detailsNote.hidden ? "Ver detalles" : "Ocultar detalles";
-});
+
+const upgradeButton = document.getElementById("upgradeButton");
+const toast = document.getElementById("toast");
+
+let toastTimer;
+
+if (upgradeButton && toast) {
+  upgradeButton.addEventListener("click", function() {
+    toast.textContent = "Coming soon";
+    toast.classList.add("show");
+
+    clearTimeout(toastTimer);
+
+    toastTimer = setTimeout(function() {
+      toast.classList.remove("show");
+    }, 2000);
+  });
+}
